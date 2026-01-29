@@ -13,6 +13,7 @@ author:
 # Minima header navigation
 header_pages:
   - index.md
+  - blog.md
   - about.md
 
 # Build

@@ -1,0 +1,171 @@
+/* --- Custom overrides for cleaner site --- */
+
+:root {
+  --spacing-unit: 1.5rem;
+  --content-width: 65ch;
+  --accent: #2a7ae2;
+  --accent-hover: #1a5bb8;
+}
+
+/* Home page hero */
+.home-hero {
+  text-align: center;
+  padding: 2.5rem 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.02em;
+}
+
+.home-tagline {
+  font-size: 1.125rem;
+  color: var(--text-muted, #666);
+  margin-bottom: 0.75rem;
+}
+
+.home-intro {
+  font-size: 1rem;
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+/* Latest post section */
+.home-latest {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color, #eaecef);
+}
+
+.home-latest h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.featured-post {
+  padding: 1.25rem;
+  background: var(--code-bg-color, #f6f8fa);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.featured-post h3 {
+  font-size: 1.125rem;
+  margin: 0 0 0.35rem;
+  font-weight: 600;
+}
+
+.featured-post h3 a {
+  text-decoration: none;
+}
+
+.featured-post h3 a:hover {
+  text-decoration: underline;
+}
+
+.featured-post-meta {
+  font-size: 0.875rem;
+  color: var(--text-muted, #666);
+  margin: 0 0 1rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+
+.home-latest > p {
+  margin-top: 0.5rem;
+}
+
+.home-latest > p a {
+  font-size: 0.9375rem;
+}
+
+/* Blog page post list */
+.post-preview {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color, #eaecef);
+}
+
+.post-preview:last-child {
+  border-bottom: none;
+}
+
+.post-preview-title {
+  font-size: 1.25rem;
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+
+.post-preview-title a {
+  text-decoration: none;
+}
+
+.post-preview-title a:hover {
+  text-decoration: underline;
+}
+
+.post-preview-meta {
+  font-size: 0.875rem;
+  color: var(--text-muted, #666);
+  margin: 0 0 0.5rem;
+}
+
+.post-preview-link {
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+/* Page content width for readability */
+.page-content {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Post layout: nicer heading spacing */
+.post-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.25rem;
+}
+
+.post-content h2:first-child {
+  margin-top: 0;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.post-content p {
+  line-height: 1.65;
+}
+
+/* Footer spacing */
+.site-footer {
+  margin-top: 3rem;
+}
