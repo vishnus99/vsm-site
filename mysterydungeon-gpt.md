@@ -10,7 +10,7 @@ permalink: /mysterydungeon-gpt/
 
 Growing up, one of my favorite video games was the Pokémon Mystery Dungeon series. The idea of loading into a random map filled with valuable loot and powerful enemies, with no real idea of where you were going, was enthralling. There was always a real sense of accomplishment and satisfaction when a dungeon was successfully navigated with limited resources and the luck involved with every step of exploration.
 
-I wanted to give players a way to not only play any number of maps they desired in a mystery dungeon environment, but also to allow them to request whatever they wished to be in the dungeon. Through the power of LLMs, players can now receive randomized maps that contain all the elements they desire in a seamless text-to-map flow.
+With this project, I wanted to accentuate the "mystery" aspect of the game. The goal was to give players a way to play any number of maps they desired in a mystery dungeon environment, while enabling them to customize the in-game parameters to whatever they wished to be in that dungeon. Through the power of LLMs, players can now receive randomized maps that contain all the elements they desire in a seamless text-to-map flow.
 
 ![Full Flowchart]({{ '/blog_images/text_to_map_flowchart.png' | relative_url }})
 
@@ -20,7 +20,7 @@ Another major motivator for this work is to create a sandbox environment for dev
 
 ## Building the Pipeline: Dataset Creation
 
-The dataset was created procedurally using the algorithm provided in the SkyTemple repository. This algorithm forms the backbone of the map generation logic, and I customized it to generate simpler maps without elements like Kecleon shops, items, and monster rooms.
+The dataset was created procedurally using the algorithm provided in the [SkyTemple](https://github.com/SkyTemple/dungeon-eos) repository. This algorithm forms the backbone of the map generation logic, and I customized it to generate simpler maps without elements like Kecleon shops, items, and monster rooms.
 
 After map generation, spawn points for the player and stairs (exit) were added. The location of these spawn points is validated using a BFS (breadth-first search) algorithm, which ensures that the exit is reachable from the player spawn and that both spawns appear on walkable tiles. Once the dataset was generated, it was uploaded to HuggingFace for easy accessibility.
 
