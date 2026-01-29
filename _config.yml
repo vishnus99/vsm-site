@@ -3,6 +3,9 @@ description: Machine Learning Engineer
 baseurl: ""
 url: "https://vishnus99.github.io"
 
+# Include future-dated posts (e.g. 2026-01-28) so they show in listings
+future: true
+
 author:
   name: Vishnu Menon
 
