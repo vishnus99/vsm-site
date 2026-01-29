@@ -15,7 +15,9 @@ I wanted to give players a way to not only play any number of maps they desired 
 Another major motivator for this work is to create a sandbox environment for developers to easily create a highly customizable map dataset for fine-tuning, as well as an equally customizable web game to test their creations. The end result: dungeons that can be played by everyone.
 
 ![Web Game]({{ '/blog_images/game_screenshot.png' | relative_url }})
-Check out the repo here: https://github.com/vishnus99/mysterydungeonGPT
+
+[Check out the repo here](https://github.com/vishnus99/mysterydungeonGPT).
+
 ## Building the Pipeline: Dataset Creation
 
 The dataset was created procedurally using the algorithm provided in the SkyTemple repository. This algorithm forms the backbone of the map generation logic, and I customized it to generate simpler maps without elements like Kecleon shops, items, and monster rooms.
