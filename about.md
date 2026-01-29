@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About
-
 I'm Vishnu Menon, a Machine Learning Engineer.
 
 This site hosts my blog and projects. Thanks for visiting.
