@@ -10,11 +10,12 @@ author:
   email: null
   twitter: null
 
-# Minima header navigation
-header_pages:
-  - index.md
-  - blog.md
-  - about.md
+# Minima v3 nav (pages shown in header, in order)
+minima:
+  nav_pages:
+    - index.md
+    - blog.md
+    - about.md
 
 # Build
 plugins:
