@@ -39,6 +39,8 @@ After trying solutions such as reducing the overall grid size and increasing the
 
 Additionally, because the grid dimensions are passed in as metadata, grid reconstruction isn't affected—the location of walls is implicitly determined by the absence of walkable tiles. Finally, the smaller token sequences resulted in lower memory usage, allowing the use of a 2048 max context length instead of 6144+.
 
+![Token Comparison]({{ '/blog_images/token_comparison.png' | relative_url }})
+
 ## Building the Pipeline: Inference
 
 After training was completed and generation test results were deemed satisfactory, the final piece was deploying the model for inference. I again employed Modal for this task, and the server setup was completed using **SGLang**.
