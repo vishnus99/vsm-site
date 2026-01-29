@@ -1,5 +1,22 @@
 title: Vishnu Menon
 description: Machine Learning Engineer
 theme: minima
+baseurl: ""
+url: "https://vishnus99.github.io"
+
+# Author (used by minima for footer)
+author:
+  name: Vishnu Menon
+  email: null
+  twitter: null
+
+# Minima header navigation
+header_pages:
+  - index.md
+  - about.md
+
+# Build
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

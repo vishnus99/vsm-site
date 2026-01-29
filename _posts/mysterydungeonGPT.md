@@ -13,7 +13,7 @@ I wanted to give players a way to not only play any number of maps they desired 
 
 Another major motivator for this work is to create a sandbox environment for developers to easily create a highly customizable map dataset for fine-tuning, as well as an equally customizable web game to test their creations. The end result: dungeons that can be played by everyone.
 
-![Web Game](blog_images/game_screenshot.png)
+![Web Game](/blog_images/game_screenshot.png)
 ## Building the Pipeline: Dataset Creation
 
 The dataset was created procedurally using the algorithm provided in the SkyTemple repository. This algorithm forms the backbone of the map generation logic, and I customized it to generate simpler maps without elements like Kecleon shops, items, and monster rooms.
@@ -50,8 +50,8 @@ For this project and due to limited GPU access, I limited the dataset to include
 
 The training prompts used are shared below, along with some example maps that were generated.
 
-![Sample Maps](blog_images/example_maps.png)
-![Sample Prompts](blog_images/example_prompts.png)
+![Sample Maps](/blog_images/example_maps.png)
+![Sample Prompts](/blog_images/example_prompts.png)
 
 ## Lessons Learned and Future Work
 
