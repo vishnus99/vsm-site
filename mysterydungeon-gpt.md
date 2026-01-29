@@ -12,11 +12,9 @@ Growing up, one of my favorite video games was the Pokémon Mystery Dungeon seri
 
 I wanted to give players a way to not only play any number of maps they desired in a mystery dungeon environment, but also to allow them to request whatever they wished to be in the dungeon. Through the power of LLMs, players can now receive randomized maps that contain all the elements they desire in a seamless text-to-map flow.
 
-Another major motivator for this work is to create a sandbox environment for developers to easily create a highly customizable map dataset for fine-tuning, as well as an equally customizable web game to test their creations. The end result: dungeons that can be played by everyone.
+Another major motivator for this work is to create a sandbox environment for developers to easily create a highly customizable map dataset for fine-tuning, as well as an equally customizable web game to test their creations. The end result: dungeons that can be played by everyone. [Check out the repo here!](https://github.com/vishnus99/mysterydungeonGPT).
 
 ![Web Game]({{ '/blog_images/game_screenshot.png' | relative_url }})
-
-[Check out the repo here](https://github.com/vishnus99/mysterydungeonGPT).
 
 ## Building the Pipeline: Dataset Creation
 
