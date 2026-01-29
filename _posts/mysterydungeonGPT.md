@@ -3,6 +3,7 @@ layout: post
 title: "mysterydungeonGPT - An exploration in LLM text-to-map game level generation"
 date: 2026-01-28
 categories: [machine-learning, game-development]
+permalink: /mysterydungeonGPT/
 ---
 
 ## Introduction
